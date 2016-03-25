@@ -32,11 +32,17 @@ div {
     background-color: #F4F7EC;
 }
 
-h1 { 
-	text-align: center;
-	margin: 5px;
-	font-size: 1.5em;
-	font-family: Verdana, Geneva, sans-serif;
+h1 {
+  margin-bottom: 30px;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  color: green;
+  text-align: center;
+}
+
+h2 {
+	margin: 3px;
+	font-family: Tahoma, Geneva, sans-serif;
+  color: purple;
 }
 
 p {margin: 15px;
@@ -64,7 +70,7 @@ p {margin: 15px;
 /* Large Screen */
 @media (min-width: 992px) {
   .lrg {
-    width: 33%;
+    width: 33.3%;
     float: left;
   }
 }
