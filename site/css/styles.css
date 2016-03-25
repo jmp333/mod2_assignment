@@ -10,13 +10,14 @@ body {
 
 div {
 	position: relative;  
-    margin-bottom: 10px;
+  margin-bottom: 10px;
 	padding-right: 10px;
 }
 .box1, .box2, .box3 {
 	border-style: outset;
 	border-color: navy;
 	border-width: 10px;
+  clear: both;
 }
 
 .box1 {
@@ -42,42 +43,43 @@ p {margin: 15px;
 	padding-top: 45px;
 }
 
-#a1, #a2, #a3 {
+#bc, #wn, #pc {
 	position: absolute;
 	right: 0;
-	border-style: solid; 	
+	border-style: solid;
+  float: left;
+  clear: both; 	
 }
 
-#a1 {background-color: #ffcccc;
+#bc {background-color: #ffcccc;
 }
 
-#a2 {background-color: #b3ffb3;
+#wn {background-color: #b3ffb3;
 }
 
-#a3 {background-color: #99ebff;
+#pc {background-color: #99ebff;
 }
 
 
 /* Large Screen */
 @media (min-width: 992px) {
-  .l1 {
-    float: left;
+  .lrg {
     width: 33%;
+    float: left;
   }
 }
 
 /* Medium Screen */
 @media (min-width: 768px) and (max-width: 991px) {
- .md1 {
-    float: left;
+ .med {
     width: 50%;
+    float: right;
     }
  }
 
   /* Small Screen */
 @media (max-width: 767px) {
-  .sm1 {
-    float: left;
+  .sm {
     width: 100%;
 	}
  }
