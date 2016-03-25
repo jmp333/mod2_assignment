@@ -10,7 +10,6 @@ body {
 
 div {
 	position: relative;  
-  margin-bottom: 10px;
 	padding-right: 5px;
 }
 
@@ -19,18 +18,22 @@ div {
 	border-color: gray;
 	border-width: 10px;
   margin-right: 10px;
+  margin-bottom: 15px;
 }
 
 .box1 {
     background-color: #F5FAFA;
+    float: left;
 }
 
 .box2 {
     background-color: #DEE0D5;
+    float: right;
 }
 
 .box3 {
     background-color: #F4F7EC;
+    clear: both;
 }
 
 h1 {
@@ -69,8 +72,8 @@ p {margin: 15px;
 /* Large Screen */
 @media (min-width: 992px) {
   .lrg {
-    width: 33.3%;
-    float: left;
+   width: 33.3%;
+   float: left; 
   }
 }
 
@@ -78,7 +81,7 @@ p {margin: 15px;
 @media (min-width: 768px) and (max-width: 991px) {
  .med {
     width: 50%;
-    float: right;
+    float: right; 
     }
  }
 
