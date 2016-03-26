@@ -17,7 +17,6 @@ div {
 	border-style: outset;
 	border-color: gray;
 	border-width: 10px;
-  margin-right: 10px;
   margin-bottom: 15px;
 }
 
@@ -72,6 +71,7 @@ p {margin: 15px;
 /* Large Screen */
 @media (min-width: 992px) {
   .lrg {
+   margin: 5px;
    width: 33.3%;
    float: left; 
   }
@@ -80,18 +80,17 @@ p {margin: 15px;
 /* Medium Screen */
 @media (min-width: 768px) and (max-width: 991px) {
   .med {
+    margin: 5px;
     width: 100%;
     position: relative;
+
       }
 
  .box1  {
-  margin-bottom: 15px;
    width: 48%;
       }
 
  .box2 {
-  margin-bottom: 15px;
-  margin-right: 0;
     width: 48%;
       }
 
@@ -104,7 +103,7 @@ p {margin: 15px;
   /* Small Screen */
 @media (max-width: 767px) {
   .sm {
-    margin-bottom: 15px;
+    margin: 5px;
     width: 100%;
 	}
  }
