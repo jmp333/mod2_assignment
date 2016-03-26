@@ -79,16 +79,32 @@ p {margin: 15px;
 
 /* Medium Screen */
 @media (min-width: 768px) and (max-width: 991px) {
- .med {
-    width: 50%;
-    float: right; 
-    }
+  .med {
+    width: 100%;
+    position: relative;
+      }
+
+ .box1  {
+  margin-bottom: 15px;
+   width: 48%;
+      }
+
+ .box2 {
+  margin-bottom: 15px;
+  margin-right: 0;
+    width: 48%;
+      }
+
+  .box3 {
+    width: 100%;
+    clear: both;
+        }
  }
 
   /* Small Screen */
 @media (max-width: 767px) {
   .sm {
+    margin-bottom: 15px;
     width: 100%;
-    clear: both;
 	}
  }
